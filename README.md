@@ -1,6 +1,6 @@
-node v12.18.4
-npm v6.14.6
+svelte-kit + tailwind
 ---
+
 npm init svelte@next sveltekitwind
 cd sveltekitwind
 npm i
