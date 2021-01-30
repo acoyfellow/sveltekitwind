@@ -1,0 +1,32 @@
+@tailwind base;
+
+/*
+in my experience: using tailwind's @apply baloons dev / compile times..
+*/
+
+.btn.red {
+  @apply text-white bg-red-600 ring-red-600
+}
+
+.btn.red:hover {
+  @apply bg-red-700
+}
+
+.btn.red:focus {
+  @apply text-red-100 bg-red-800
+}
+
+.btn.blue {
+  @apply text-white bg-blue-600 ring-blue-600
+}
+
+.btn.blue:hover {
+  @apply bg-blue-700
+}
+
+.btn.blue:focus {
+  @apply text-blue-100 bg-blue-800
+}
+
+@tailwind components;
+@tailwind utilities;
